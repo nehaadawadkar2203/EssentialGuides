@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.essentialguides">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Area5EducaActivity"></activity>
+        <activity android:name=".Area5OldDayActivity" />
+        <activity android:name=".Area5BeautyActivity" />
+        <activity android:name=".Area5HostelActivity" />
+        <activity android:name=".Area5HomeActivity" />
+        <activity android:name=".Area5RestActivity" />
+        <activity android:name=".Area5BooksActivity" />
+        <activity android:name=".Area5ElectronicsActivity" />
+        <activity android:name=".Area5GeneralActivity" />
+        <activity android:name=".Area5HealthActivity" />
+        <activity android:name=".Area4EducaActivity" />
+        <activity android:name=".Area4OldDayActivity" />
+        <activity android:name=".Area4BeautyActivity" />
+        <activity android:name=".Area4HostelActivity" />
+        <activity android:name=".Area4HomeActivity" />
+        <activity android:name=".Area4RestActivity" />
+        <activity android:name=".Area4BooksActivity" />
+        <activity android:name=".Area4ElectronicsActivity" />
+        <activity android:name=".Area4GeneralActivity" />
+        <activity android:name=".Area4HealthActivity" />
+        <activity android:name=".Area3EducaActivity" />
+        <activity android:name=".Area3OldDayActivity" />
+        <activity android:name=".Area3BeautyActivity" />
+        <activity android:name=".Area3HostelActivity" />
+        <activity android:name=".Area3HomeActivity" />
+        <activity android:name=".Area3RestActivity" />
+        <activity android:name=".Area3BooksActivity" />
+        <activity android:name=".Area3ElectronicsActivity" />
+        <activity android:name=".Area3GeneralActivity" />
+        <activity android:name=".Area3HealthActivity" />
+        <activity android:name=".Area2EducaActivity" />
+        <activity android:name=".Area2OldDayActivity" />
+        <activity android:name=".Area2BeautyActivity" />
+        <activity android:name=".Area2HomeActivity" />
+        <activity android:name=".Area2HostelActivity" />
+        <activity android:name=".Area2RestActivity" />
+        <activity android:name=".Area2BooksActivity" />
+        <activity android:name=".Area2ElectronicsActivity" />
+        <activity android:name=".Area2GeneralActivity" />
+        <activity android:name=".Area2HealthActivity" />
+        <activity android:name=".Area1EducaActivity" />
+        <activity android:name=".Area1OldDayActivity" />
+        <activity android:name=".Area1BeautyActivity" />
+        <activity android:name=".Area1HostelActivity" />
+        <activity android:name=".Area1HomeActivity" />
+        <activity android:name=".Area1RestActivity" />
+        <activity android:name=".Area1BooksActivity" />
+        <activity android:name=".Area1ElectronicsActivity" />
+        <activity android:name=".Area1GeneralActivity" />
+        <activity android:name=".Area1HealthActivity" />
+        <activity android:name=".Category5Activity" />
+        <activity android:name=".Category4Activity" />
+        <activity android:name=".Category3Activity" />
+        <activity android:name=".Category2Activity" />
+        <activity android:name=".Category1Activity" />
+        <activity android:name=".AreaActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
